@@ -29,9 +29,9 @@ const accessToken = "github_pat_11A3RZK5Y0dibcGka6iF7o_b4GrnVnDDbzaaF3ZQiHyKsBI7
   console.clear();
 if(!searchValue==""){
     let myPromise = fetch(url + searchValue, {
-    headers: {
-      Authorization: `Bearer ${accessToken}`,
-    },
+    // headers: {
+    //   Authorization: `Bearer ${accessToken}`,
+    // },
   })
   .then(response => {
     if (!response.ok) {
