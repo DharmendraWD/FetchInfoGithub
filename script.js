@@ -7,7 +7,7 @@ let personidCreateAt = document.querySelector('.person_Data .date');
 let data;
 
 let url = "https://api.github.com/users/";
-const accessToken = "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";
+const accessToken = "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";
 
             // When click on search 
             main.children[0].children[1].addEventListener('click', ()=>{
